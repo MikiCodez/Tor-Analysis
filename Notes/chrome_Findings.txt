@@ -1,0 +1,5 @@
+Test One: 
+Conditions:User Signed out of browser, observing traffic to www.youtube.com
+Observations: Both the Client Hello and the Server hello had the same key exchange, also both used TLS version 1.3 
+Conclusion: The first observation in the test shows that standard browsers establish secure connections to servers by using TLS version 1.3
+Relevence: Serves as a baseline for future tests against Tor 
